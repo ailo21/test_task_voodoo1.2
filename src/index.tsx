@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './style/App.css';
 import reportWebVitals from './reportWebVitals';
+import PostsContainer from "./components/PostsContainer";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+      <PostsContainer/>,
   document.getElementById('root')
 );
 
